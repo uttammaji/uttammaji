@@ -63,64 +63,6 @@ I'm a **Full Stack MERN Developer** passionate about building scalable, modern, 
 
 ---
 
-## 🚀 Featured Projects
-
-### 🛒 E-Commerce Platform
-
-A full-stack e-commerce application with:
-
-* User authentication
-* Product management
-* Shopping cart
-* Wishlist
-* Checkout
-* Order management
-* Admin dashboard
-* Product filtering and search
-* Responsive UI
-
-**Tech:** React • Node.js • Express • MongoDB • Tailwind CSS
-
----
-
-### 💼 Freelancer Marketplace
-
-A marketplace connecting clients with freelancers.
-
-**Features:**
-
-* 👤 Client & Freelancer accounts
-* 🔐 Authentication & authorization
-* 📋 Project posting
-* 💼 Freelancer proposals
-* 💬 Real-time messaging
-* ⭐ Reviews & ratings
-* 📁 File sharing
-* 💰 Payment management
-* 📊 User dashboards
-* 🛡️ Admin panel
-
-**Tech:** MERN Stack • Socket.IO • MongoDB • JWT
-
----
-
-### 🎓 Student Information System
-
-A web application for managing student information.
-
-**Features:**
-
-* Student registration
-* Student profiles
-* Course management
-* Attendance
-* Academic records
-* Admin dashboard
-* Search & filtering
-
-**Tech:** React • Node.js • Express • MongoDB
-
----
 
 ## 📚 Currently Learning
 
@@ -187,11 +129,6 @@ I'm continuously improving my problem-solving skills through:
 
 ---
 
-## 📈 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=uttammaji&theme=tokyo-night&hide_border=true" />
-</p>
 
 ---
 
@@ -203,11 +140,11 @@ I'm continuously improving my problem-solving skills through:
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
-<a href="https://www.linkedin.com/">
+<a href="https://www.linkedin.com/in/uttam-maji-99070p0">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="mailto:your-email@example.com">
+<a href="mailto:uttammaji842@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
