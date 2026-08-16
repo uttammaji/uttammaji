@@ -1,26 +1,283 @@
- # # Hi,I'm Uttam Maji
-<br>
-Backend | AWS Cloud | DevOps Learner
-<br>
+# 👋 Hi, I'm Uttam Maji
 
-Email Me 👉 ✉️ uttammaji842@gmail.com For Collaboration/Project or Anything Else. 😊😊
+### 🚀 Full Stack MERN Developer | Backend Developer | Cloud & DevOps Enthusiast
 
-# 💫 About Me:
-🔭 Currently working on Backend projects.<br>🤝 Looking to collaborate on Backend and Cloud projects.<br>🌱 Learner exploring modern technologies and scalable systems.<br>☁️ Interested in Backend Development and Cloud Computing.
-
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/uttam_maji_700) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/uttam-maji-99070p0) 
-
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=plastic&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=plastic&logo=amazon-aws&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=plastic&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=plastic&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=plastic&logo=render&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=plastic&logo=npm&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=plastic&logo=jenkins&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=plastic&logo=ejs&logoColor=black) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=plastic&logo=express&logoColor=%2361DAFB) ![JWT](https://img.shields.io/badge/JWT-black?style=plastic&logo=JSON%20web%20tokens) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=plastic&logo=nodemon&logoColor=%BBDEAD) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=plastic&logo=tailwind-css&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=plastic&logo=nginx&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=plastic&logo=Amazon%20DynamoDB&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=plastic&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=plastic&logo=docker&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=plastic&logo=Prometheus&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=plastic&logo=kubernetes&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=uttammaji&theme=transparent&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=uttammaji&theme=transparent&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=uttammaji&theme=transparent&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Full+Stack+MERN+Developer;Backend+Developer;React+%7C+Node.js+%7C+Express;MongoDB+%7C+PostgreSQL;Cloud+%26+DevOps+Enthusiast" alt="Typing SVG" />
+</p>
 
 ---
-[![](https://komarev.com/ghpvc/?username=uttammaji&icon=0&color=1)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 👨‍💻 About Me
 
+I'm a **Full Stack MERN Developer** passionate about building scalable, modern, and user-friendly web applications.
+
+* 🎓 B.Tech in Computer Science & Engineering
+* 💻 Focused on **Full Stack & Backend Development**
+* ⚛️ Building applications with **React, Node.js & Express**
+* 🗄️ Working with **MongoDB, PostgreSQL & MySQL**
+* ☁️ Learning **AWS, Cloud & DevOps**
+* 🧠 Practicing **Data Structures & Algorithms**
+* 🔧 Interested in system design, APIs, authentication and scalable backend architecture
+* 🚀 Always learning and building new projects
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,java,python,cpp,html,css" />
+</p>
+
+### 🎨 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,redux" />
+</p>
+
+### ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi" />
+</p>
+
+### 🗄️ Database
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,redis" />
+</p>
+
+### ☁️ Cloud & DevOps
+
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,jenkins,kubernetes,linux,git,github" />
+</p>
+
+### 🔧 Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=vscode,postman,npm,bash" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+### 🛒 E-Commerce Platform
+
+A full-stack e-commerce application with:
+
+* User authentication
+* Product management
+* Shopping cart
+* Wishlist
+* Checkout
+* Order management
+* Admin dashboard
+* Product filtering and search
+* Responsive UI
+
+**Tech:** React • Node.js • Express • MongoDB • Tailwind CSS
+
+---
+
+### 💼 Freelancer Marketplace
+
+A marketplace connecting clients with freelancers.
+
+**Features:**
+
+* 👤 Client & Freelancer accounts
+* 🔐 Authentication & authorization
+* 📋 Project posting
+* 💼 Freelancer proposals
+* 💬 Real-time messaging
+* ⭐ Reviews & ratings
+* 📁 File sharing
+* 💰 Payment management
+* 📊 User dashboards
+* 🛡️ Admin panel
+
+**Tech:** MERN Stack • Socket.IO • MongoDB • JWT
+
+---
+
+### 🎓 Student Information System
+
+A web application for managing student information.
+
+**Features:**
+
+* Student registration
+* Student profiles
+* Course management
+* Attendance
+* Academic records
+* Admin dashboard
+* Search & filtering
+
+**Tech:** React • Node.js • Express • MongoDB
+
+---
+
+## 📚 Currently Learning
+
+```text
+Backend Development
+        ↓
+Advanced Node.js & Express
+        ↓
+System Design
+        ↓
+PostgreSQL & Redis
+        ↓
+Docker
+        ↓
+AWS
+        ↓
+CI/CD
+        ↓
+Kubernetes
+```
+
+---
+
+## 🧠 DSA & Problem Solving
+
+I'm continuously improving my problem-solving skills through:
+
+* Arrays
+* Strings
+* Linked Lists
+* Stack & Queue
+* Hashing
+* Trees
+* Graphs
+* Recursion
+* Dynamic Programming
+* Sorting & Searching
+* STL in C++
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=uttammaji&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uttammaji&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+</p>
+
+---
+
+## 🔥 GitHub Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=uttammaji&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/uttammaji/uttammaji/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+</p>
+
+---
+
+## 📈 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=uttammaji&theme=tokyo-night&hide_border=true" />
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://github.com/uttammaji">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:your-email@example.com">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+</p>
+
+---
+
+## 💡 My Development Philosophy
+
+> **"Build. Break. Learn. Improve. Repeat."**
+
+I believe the best way to learn development is by **building real-world projects**, solving problems, understanding how systems work, and continuously improving.
+
+---
+
+## 🎯 2026 Goals
+
+* [ ] Become an advanced Full Stack Developer
+* [ ] Master backend architecture
+* [ ] Build production-level MERN applications
+* [ ] Improve DSA & problem solving
+* [ ] Learn advanced system design
+* [ ] Deploy applications on AWS
+* [ ] Learn Docker & Kubernetes
+* [ ] Build scalable cloud applications
+* [ ] Contribute to Open Source
+* [ ] Get a professional Software Developer role
+
+---
+
+## 💻 Development Workflow
+
+```text
+Idea
+ ↓
+Planning
+ ↓
+UI/UX Design
+ ↓
+Frontend Development
+ ↓
+Backend & API Development
+ ↓
+Database Design
+ ↓
+Authentication & Security
+ ↓
+Testing
+ ↓
+Docker
+ ↓
+CI/CD
+ ↓
+Cloud Deployment
+ ↓
+Monitoring & Optimization
+```
+
+---
+
+## ⭐ Thanks for Visiting!
+
+<p align="center">
+  <b>Thanks for visiting my GitHub profile! 🚀</b>
+</p>
+
+<p align="center">
+  Let's build something amazing together.
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=uttammaji&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>
