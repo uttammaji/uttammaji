@@ -28,31 +28,31 @@ I'm a **Full Stack MERN Developer** passionate about building scalable, modern, 
 ### 💻 Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js,java,python,cpp,html,css" />
+  <img src="https://skillicons.dev/icons?i=js,python,cpp,html,css" />
 </p>
 
 ### 🎨 Frontend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vite,redux" />
+  <img src="https://skillicons.dev/icons?i=react,tailwind,vite,redux" />
 </p>
 
 ### ⚙️ Backend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express" />
 </p>
 
 ### 🗄️ Database
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,redis" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgresql,mysql,redis,cloudinary" />
 </p>
 
 ### ☁️ Cloud & DevOps
 
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,azure,docker,jenkins,kubernetes,linux,git,github" />
+  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,linux,git,github" />
 </p>
 
 ### 🔧 Tools
