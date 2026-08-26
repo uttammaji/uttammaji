@@ -52,7 +52,7 @@ I'm a **Full Stack MERN Developer** passionate about building scalable, modern, 
 ### ☁️ Cloud & DevOps
 
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,linux,git,github" />
+  <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github" />
 </p>
 
 ### 🔧 Tools
