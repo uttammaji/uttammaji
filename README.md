@@ -1,4 +1,5 @@
 # 👋 Hey, I'm Uttam Maji
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Architects+Daughter&size=32&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&height=60&lines=Full+Stack+MERN+Developer;Backend+Developer;Cloud+%26+DevOps+Enthusiast;Building+Scalable+Web+Applications;Turning+Ideas+Into+Reality+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
