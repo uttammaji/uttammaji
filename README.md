@@ -8,6 +8,10 @@
 
 </div>
 
+<div align="center">
+  <img src="assets/hero.svg" alt="Animated profile header for Uttam Maji" width="100%">
+</div>
+
 ## About me
 
 Hi, I'm **Uttam Maji**, a full stack developer and **cloud enthusiast** pursuing a B.Tech in Computer Science. I enjoy building practical applications, designing APIs, working with databases, and learning how to deploy and scale apps in the cloud.
@@ -20,13 +24,21 @@ Hi, I'm **Uttam Maji**, a full stack developer and **cloud enthusiast** pursuing
 ## Tech stack
 
 <div align="center">
-	<img src="assets/stack.svg" alt="Technology stack: C++, JavaScript, Python, TypeScript, React, Tailwind CSS, React Native, Node.js, Express, REST APIs, AWS, Docker, Linux, PostgreSQL, MongoDB, MySQL, Git, and GitHub" width="100%">
+  <img src="assets/stack.svg" alt="Technology stack: C++, JavaScript, Python, TypeScript, React, Tailwind CSS, React Native, Node.js, Express, REST APIs, AWS, Docker, Linux, PostgreSQL, MongoDB, MySQL, Git, and GitHub" width="100%">
 </div>
 
 **Languages:** C++, JavaScript, Python, TypeScript  
 **Frontend & mobile:** React, Tailwind CSS, React Native  
 **Backend:** Node.js, Express, REST APIs  
 **Cloud, data & tools:** AWS, Docker, Linux, PostgreSQL, MongoDB, MySQL, Git, GitHub
+
+## Profile visuals
+
+<div align="center">
+  <img src="assets/id-dashboard.svg" alt="Developer ID dashboard for Uttam Maji" width="100%">
+  <img src="assets/about-life.svg" alt="Illustrated overview of Uttam's capabilities and interests" width="100%">
+  <img src="assets/connect.svg" alt="Connect with Uttam Maji on GitHub, LinkedIn, and other repositories" width="100%">
+</div>
 
 ## Featured projects
 
