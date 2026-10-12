@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Profile README preview</title>
+<style>
+     :root {
+        color-scheme: dark light
+    }
+    
+    body {
+        margin: 0;
+        font: 15px/1.5 system-ui, sans-serif;
+        background: #0d1117;
+        color: #e6edf3
+    }
+    
+    .bar {
+        position: sticky;
+        top: 0;
+        background: #161b22;
+        border-bottom: 1px solid #30363d;
+        padding: 10px 16px;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        z-index: 2
+    }
+    
+    .bar button {
+        background: #21262d;
+        color: inherit;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        padding: 6px 12px;
+        cursor: pointer
+    }
+    
+    .bar button[aria-pressed=true] {
+        border-color: #247bff
+    }
+    
+    main {
+        margin: 24px auto;
+        max-width: 830px;
+        padding: 0 16px;
+        transition: max-width .2s
+    }
+    
+    main.mobile {
+        max-width: 375px
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 0 16px
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 8px 0 24px
+    }
+    
+    th,
+    td {
+        border: 1px solid #30363d;
+        padding: 8px 12px;
+        text-align: left
+    }
+    
+    a {
+        color: #58a6ff
+    }
+    
+    .links {
+        text-align: center;
+        margin-bottom: 12px
+    }
+</style>
+<div class="bar"><strong>Preview</strong>
+    <button aria-pressed="true" onclick="setW(false,this)">Desktop 830px</button><button aria-pressed="false" onclick="setW(true,this)">Mobile 375px</button>
+    <span style="opacity:.7">Images load as &lt;img&gt;, as on GitHub.</span></div>
+<main id="m">
+    <h1 align="center">Hi, I'm Uttam Maji 👋</h1>
+    <h3 align="center">Full Stack Developer · Cloud Enthusiast · B.Tech CSE Student</h3>
+    <p class="links"><a href="https://github.com/uttammaji">GitHub</a> · <a href="https://www.linkedin.com/in/uttam-maji-99070p0">LinkedIn</a> · <a href="https://github.com/uttammaji?tab=repositories">Repositories</a></p>
+    <h2>About me</h2>
+    <p>I'm Uttam Maji, a full stack developer and cloud enthusiast pursuing a B.Tech in Computer Science. I enjoy building practical applications, designing APIs, working with databases, and learning how to deploy and scale apps in the cloud.</p>
+    <ul>
+        <li>Exploring React, Tailwind CSS, React Native, and cloud technologies</li>
+        <li>Building with JavaScript, Node.js, Express, and SQL/NoSQL databases</li>
+        <li>Interested in AWS, Linux, containers, and reliable application deployment</li>
+        <li>B.Tech Computer Science student at Brainware University</li>
+    </ul>
+    <h2>Tech stack</h2>
+    <img src="assets/stack.svg" alt="Technology stack: C++, JavaScript, Python, TypeScript, React, Tailwind CSS, React Native, Node.js, Express, REST APIs, AWS, Docker, Linux, PostgreSQL, MongoDB, MySQL, Git, and GitHub">
+    <p><strong>Languages:</strong> C++, JavaScript, Python, TypeScript<br><strong>Frontend &amp; mobile:</strong> React, Tailwind CSS, React Native<br><strong>Backend:</strong> Node.js, Express, REST APIs<br><strong>Cloud, data &amp; tools:</strong> AWS,
+        Docker, Linux, PostgreSQL, MongoDB, MySQL, Git, GitHub</p>
+    <h2>Featured projects</h2>
+    <table>
+        <tr>
+            <th>Project</th>
+            <th>Description</th>
+            <th>Repository</th>
+        </tr>
+        <tr>
+            <td>AI Code Review</td>
+            <td>Reviewing code and inspecting changes.</td>
+            <td><a href="https://github.com/uttammaji/Ai_Code_Review">View project</a></td>
+        </tr>
+        <tr>
+            <td>Student Information System</td>
+            <td>Managing student information.</td>
+            <td><a href="https://github.com/uttammaji/Studen_information_system">View project</a></td>
+        </tr>
+        <tr>
+            <td>Event Booking System</td>
+            <td>Event bookings and workflows.</td>
+            <td><a href="https://github.com/uttammaji/EventBookingSystem">View project</a></td>
+        </tr>
+        <tr>
+            <td>Freelancer Marketplace</td>
+            <td>JavaScript group project.</td>
+            <td><a href="https://github.com/uttammaji/Freelancer-Marketplace">View project</a></td>
+        </tr>
+        <tr>
+            <td>Gym</td>
+            <td>React, Express, and Node.js application.</td>
+            <td><a href="https://github.com/uttammaji/Gym">View project</a></td>
+        </tr>
+        <tr>
+            <td>Voice Assistance</td>
+            <td>JavaScript voice assistant.</td>
+            <td><a href="https://github.com/uttammaji/Voice-Assistance">View project</a></td>
+        </tr>
+    </table>
+    <h2>Connect</h2>
+    <p>Find me on <a href="https://github.com/uttammaji">GitHub</a>, <a href="https://www.linkedin.com/in/uttam-maji-99070p0">LinkedIn</a>, or <a href="https://github.com/uttammaji?tab=repositories">browse all my repositories</a>.</p>
+</main>
+<script>
+    function setW(m, b) {
+        document.getElementById('m').classList.toggle('mobile', m);
+        document.querySelectorAll('.bar button').forEach(x => x.setAttribute('aria-pressed', x === b))
+    }
+</script>
+
+</html>
