@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="100%" height="100%">
+  <defs>
+    <!-- Dark Navy Gradient Background -->
+    <radialGradient id="bgGlow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#070b16"/>
+      <stop offset="100%" stop-color="#04060d"/>
+    </radialGradient>
+
+    <!-- Center Badge Gradient -->
+    <radialGradient id="centerBadge" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#111c38"/>
+      <stop offset="100%" stop-color="#080d1a"/>
+    </radialGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1527" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#090f1c" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Crimson Highlight Gradient -->
+    <linearGradient id="crimsonBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff354f"/>
+      <stop offset="100%" stop-color="#247bff"/>
+    </linearGradient>
+
+    <!-- Blue Border Gradient -->
+    <linearGradient id="blueBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#102a5c" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Subtle Dot Grid Background Pattern -->
+    <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#247bff" opacity="0.08"/>
+    </pattern>
+
+    <style>
+      .orbit-path {
+        fill: none;
+        stroke-dasharray: 4 6;
+        opacity: 0.35;
+      }
+      .orbit-1 { stroke: #247bff; }
+      .orbit-2 { stroke: #ff354f; }
+      .orbit-3 { stroke: #247bff; }
+
+      .text-title { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; }
+      .text-sub { font-family: 'Fira Code', monospace, sans-serif; font-weight: 600; }
+      .label-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 600; fill: #e2e8f0; }
+      .pill-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-size: 11px; font-weight: 600; fill: #cbd5e1; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="900" height="640" rx="16" fill="url(#bgGlow)"/>
+  <rect width="900" height="640" rx="16" fill="url(#dotGrid)"/>
+  <rect width="898" height="638" x="1" y="1" rx="15" fill="none" stroke="#247bff" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- ================= HEADER SECTION ================= -->
+  <g transform="translate(45, 45)">
+    <text x="0" y="0" class="text-sub" fill="#247bff" font-size="13" letter-spacing="2">// TECH STACK</text>
+    <text x="0" y="32" class="text-title" fill="#ffffff" font-size="34">Tools I <tspan fill="#ff354f">use</tspan></text>
+  </g>
+
+  <!-- ================= ROTATED ORBITS WITH CONTINUOUS ROTATION ANIMATION ================= -->
+  <g transform="translate(450, 210)">
+    
+    <!-- CENTER BADGE: MY STACK (Fixed in Center) -->
+    <g>
+      <circle cx="0" cy="0" r="42" fill="url(#centerBadge)" stroke="url(#crimsonBorder)" stroke-width="2.5"/>
+      <text x="0" y="-4" class="text-title" fill="#ffffff" font-size="16" text-anchor="middle">MY</text>
+      <text x="0" y="15" class="text-title" fill="#247bff" font-size="15" text-anchor="middle">STACK</text>
+    </g>
+
+    <!-- ORBIT 1 (Rotated -12 deg, Rotating Slowly Clockwise) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="-12" to="348" dur="45s" repeatCount="indefinite"/>
+      <ellipse cx="0" cy="0" rx="340" ry="110" class="orbit-path orbit-1" stroke-width="1.5"/>
+      
+      <!-- Docker -->
+      <g transform="translate(-290, -10)">
+        <animateTransform attributeName="transform" type="rotate" from="12" to="-348" dur="45s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="22" fill="#0d1527" stroke="#0db7ed" stroke-width="1.5"/>
+        <path d="M-10,2 h4 v-4 h-4 v4 z M-5,2 h4 v-4 h-5 v4 z M0,2 h4 v-4 h-4 v4 z M5,2 h4 v-4 h-4 v4 z M-5,-3 h4 v-4 h-4 v4 z M0,-3 h4 v-4 h-4 v4 z M5,-3 h4 v-4 h-4 v4 z M0,-8 h4 v-4 h-4 v4 z M-13,6 c1,4 5,7 12,7 c9,0 14,-5 15,-9 c-2,0 -4,1 -6,0 c-1,2 -3,3 -6,2 c-2,-1 -2,-3 -2,-3 c-3,0 -6,-2 -7,-5 z" fill="#0db7ed"/>
+        <text x="0" y="36" class="label-text" text-anchor="middle">Docker</text>
+      </g>
+
+      <!-- Git -->
+      <g transform="translate(-30, -135)">
+        <animateTransform attributeName="transform" type="rotate" from="12" to="-348" dur="45s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="21" fill="#ffffff" stroke="#f05032" stroke-width="1.5"/>
+        <path d="M-4,-7 L5,2 L0,7 M5,2 L5,-3" fill="none" stroke="#f05032" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="-4" cy="-7" r="2" fill="#f05032"/>
+        <circle cx="0" cy="7" r="2" fill="#f05032"/>
+        <circle cx="5" cy="-3" r="2" fill="#f05032"/>
+        <text x="0" y="35" class="label-text" text-anchor="middle">Git</text>
+      </g>
+
+      <!-- MySQL -->
+      <g transform="translate(110, -115)">
+        <animateTransform attributeName="transform" type="rotate" from="12" to="-348" dur="45s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="20" fill="#ffffff" stroke="#00758f" stroke-width="1.5"/>
+        <text x="0" y="4" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="9" fill="#00758f" text-anchor="middle">MySQL</text>
+        <text x="0" y="34" class="label-text" text-anchor="middle">MySQL</text>
+      </g>
+
+      <!-- AWS -->
+      <g transform="translate(245, 10)">
+        <animateTransform attributeName="transform" type="rotate" from="12" to="-348" dur="45s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="21" fill="#ffffff" stroke="#ff9900" stroke-width="1.5"/>
+        <text x="0" y="1" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="9" fill="#232f3e" text-anchor="middle">aws</text>
+        <path d="M-8,6 Q0,10 8,6" fill="none" stroke="#ff9900" stroke-width="1.5"/>
+        <text x="0" y="35" class="label-text" text-anchor="middle">AWS</text>
+      </g>
+
+      <!-- GitHub -->
+      <g transform="translate(325, 60)">
+        <animateTransform attributeName="transform" type="rotate" from="12" to="-348" dur="45s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="22" fill="#ffffff" stroke="#181717" stroke-width="1.5"/>
+        <path d="M0,-11 C-6,-11 -11,-6 -11,0 C-11,5 -7,9 -2,10 C-1,10 0,10 0,9 L0,7 C-3,8 -4,6 -4,6 C-5,4 -5,4 -5,4 C-6,3 -5,3 -5,3 C-4,3 -3,4 -3,4 C-2,6 1,5 2,4 C2,3 3,2 3,1 C-1,1 -5,0 -5,-5 C-5,-6 -4,-7 -4,-8 C-5,-9 -4,-9 -4,-9 C-3,-9 -1,-7 0,-8 C2,-8 4,-8 5,-7 C7,-9 8,-9 8,-9 C8,-9 9,-9 8,-8 C9,-7 9,-6 9,-5 C9,0 5,1 1,1 C2,2 2,3 2,5 L2,9 C2,10 3,10 4,10 C9,9 13,5 13,0 C13,-6 8,-11 0,-11 Z" fill="#181717"/>
+        <text x="0" y="36" class="label-text" text-anchor="middle">GitHub</text>
+      </g>
+    </g>
+
+    <!-- ORBIT 2 (Rotated 8 deg, Rotating Counter-Clockwise) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="8" to="-352" dur="55s" repeatCount="indefinite"/>
+      <ellipse cx="0" cy="0" rx="310" ry="95" class="orbit-path orbit-2" stroke-width="1.2"/>
+
+      <!-- MongoDB -->
+      <g transform="translate(-210, -75)">
+        <animateTransform attributeName="transform" type="rotate" from="-8" to="352" dur="55s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="21" fill="#0d1527" stroke="#13aa52" stroke-width="1.5"/>
+        <path d="M0,-11 C3,-5 9,0 9,6 C9,11 5,14 0,15 C-5,14 -9,11 -9,6 C-9,0 -3,-5 0,-11 Z M0,-11 L0,15" fill="none" stroke="#13aa52" stroke-width="2"/>
+        <text x="0" y="35" class="label-text" text-anchor="middle">MongoDB</text>
+      </g>
+
+      <!-- Linux -->
+      <g transform="translate(-10, 105)">
+        <animateTransform attributeName="transform" type="rotate" from="-8" to="352" dur="55s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="21" fill="#0d1527" stroke="#fcc624" stroke-width="1.5"/>
+        <ellipse cx="0" cy="-1" rx="7" ry="9" fill="#ffffff"/>
+        <circle cx="-2" cy="-3" r="1" fill="#000"/>
+        <circle cx="2" cy="-3" r="1" fill="#000"/>
+        <polygon points="0,-1 -3,2 3,2" fill="#fcc624"/>
+        <text x="0" y="35" class="label-text" text-anchor="middle">Linux</text>
+      </g>
+
+      <!-- PostgreSQL -->
+      <g transform="translate(125, 25)">
+        <animateTransform attributeName="transform" type="rotate" from="-8" to="352" dur="55s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="21" fill="#ffffff" stroke="#336791" stroke-width="1.5"/>
+        <path d="M-6,-4 C-6,-8 0,-9 5,-5 C8,-2 7,4 4,6 C2,7 -1,5 -1,2 C-1,7 -5,8 -7,5 C-8,3 -8,-1 -6,-4 Z" fill="#336791"/>
+        <text x="0" y="35" class="label-text" text-anchor="middle">PostgreSQL</text>
+      </g>
+
+      <!-- Redis -->
+      <g transform="translate(180, 75)">
+        <animateTransform attributeName="transform" type="rotate" from="-8" to="352" dur="55s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="21" fill="#d82c20"/>
+        <path d="M-7,-3 L0,-6 L7,-3 L0,0 Z M-7,1 L0,4 L7,1 M-7,5 L0,8 L7,5" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+        <text x="0" y="35" class="label-text" text-anchor="middle">Redis</text>
+      </g>
+
+      <!-- Cloudinary -->
+      <g transform="translate(290, -60)">
+        <animateTransform attributeName="transform" type="rotate" from="-8" to="352" dur="55s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="20" fill="#0d1527" stroke="#3448c5" stroke-width="1.5"/>
+        <path d="M-6,3 A4,4 0 0,1 -4,-4 A5,5 0 0,1 5,-2 A4,4 0 0,1 6,3 Z" fill="#3448c5"/>
+        <text x="0" y="34" class="label-text" text-anchor="middle">Cloudinary</text>
+      </g>
+    </g>
+
+    <!-- ORBIT 3 (Rotated -3 deg, Rotating Clockwise Fast) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="-3" to="357" dur="38s" repeatCount="indefinite"/>
+      <ellipse cx="0" cy="0" rx="250" ry="75" class="orbit-path orbit-3" stroke-width="1"/>
+
+      <!-- Node.js -->
+      <g transform="translate(-150, 35)">
+        <animateTransform attributeName="transform" type="rotate" from="3" to="-357" dur="38s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="21" fill="#0d1527" stroke="#5fa04e" stroke-width="1.5"/>
+        <path d="M0,-10 L9,-5 L9,5 L0,10 L-9,5 L-9,-5 Z" fill="none" stroke="#5fa04e" stroke-width="2"/>
+        <text x="0" y="35" class="label-text" text-anchor="middle">Node.js</text>
+      </g>
+
+      <!-- React -->
+      <g transform="translate(-115, -20)">
+        <animateTransform attributeName="transform" type="rotate" from="3" to="-357" dur="38s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="21" fill="#0d1527" stroke="#61dafb" stroke-width="1.5"/>
+        <ellipse cx="0" cy="0" rx="9" ry="3.5" fill="none" stroke="#61dafb" stroke-width="1.2" transform="rotate(0)"/>
+        <ellipse cx="0" cy="0" rx="9" ry="3.5" fill="none" stroke="#61dafb" stroke-width="1.2" transform="rotate(60)"/>
+        <ellipse cx="0" cy="0" rx="9" ry="3.5" fill="none" stroke="#61dafb" stroke-width="1.2" transform="rotate(120)"/>
+        <circle cx="0" cy="0" r="1.8" fill="#61dafb"/>
+        <text x="0" y="35" class="label-text" text-anchor="middle">React</text>
+      </g>
+
+      <!-- Express -->
+      <g transform="translate(-65, -85)">
+        <animateTransform attributeName="transform" type="rotate" from="3" to="-357" dur="38s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="20" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+        <text x="0" y="4" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="12" fill="#111111" text-anchor="middle">ex</text>
+        <text x="0" y="34" class="label-text" text-anchor="middle">Express</text>
+      </g>
+
+      <!-- Tailwind -->
+      <g transform="translate(-60, 45)">
+        <animateTransform attributeName="transform" type="rotate" from="3" to="-357" dur="38s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="20" fill="#0d1527" stroke="#38bdf8" stroke-width="1.5"/>
+        <path d="M-8,-2 C-6,-6 -2,-6 0,-3 C2,-6 6,-6 8,-3 C6,3 2,3 0,0 C-2,3 -6,3 -8,-2 Z" fill="#38bdf8"/>
+        <text x="0" y="34" class="label-text" text-anchor="middle">Tailwind</text>
+      </g>
+
+      <!-- JavaScript -->
+      <g transform="translate(100, -55)">
+        <animateTransform attributeName="transform" type="rotate" from="3" to="-357" dur="38s" repeatCount="indefinite" additive="sum"/>
+        <circle cx="0" cy="0" r="20" fill="#f7df1e"/>
+        <text x="0" y="5" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="13" fill="#000000" text-anchor="middle">JS</text>
+        <text x="0" y="34" class="label-text" text-anchor="middle">JavaScript</text>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- ================= CATEGORY CARDS SECTION ================= -->
+  
+  <!-- 1. FULL STACK CARD -->
+  <g transform="translate(45, 415)">
+    <rect width="210" height="190" rx="14" fill="url(#cardBg)" stroke="url(#blueBorder)" stroke-width="1.2"/>
+    <text x="20" y="30" class="text-sub" fill="#247bff" font-size="12" letter-spacing="1.5">FULL STACK</text>
+    
+    <g transform="translate(20, 48)">
+      <rect width="80" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#5fa04e"/>
+      <text x="27" y="18" class="pill-text">Node.js</text>
+    </g>
+    <g transform="translate(108, 48)">
+      <rect width="82" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#ffffff"/>
+      <text x="14" y="17" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="7" fill="#000" text-anchor="middle">ex</text>
+      <text x="25" y="18" class="pill-text">Express.js</text>
+    </g>
+    <g transform="translate(20, 88)">
+      <rect width="80" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#0d1527" stroke="#61dafb" stroke-width="1"/>
+      <circle cx="14" cy="14" r="2" fill="#61dafb"/>
+      <text x="27" y="18" class="pill-text">React</text>
+    </g>
+    <g transform="translate(108, 88)">
+      <rect width="82" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#38bdf8"/>
+      <text x="25" y="18" class="pill-text">Tailwind</text>
+    </g>
+    <g transform="translate(20, 128)">
+      <rect width="80" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <rect x="8" y="8" width="12" height="12" rx="2" fill="#f7df1e"/>
+      <text x="14" y="17" font-family="sans-serif" font-weight="800" font-size="7" fill="#000" text-anchor="middle">JS</text>
+      <text x="26" y="18" class="pill-text">JavaScript</text>
+    </g>
+    <g transform="translate(108, 128)">
+      <rect width="82" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#247bff"/>
+      <text x="25" y="18" class="pill-text">REST APIs</text>
+    </g>
+  </g>
+
+  <!-- 2. DATABASES & STORAGE CARD -->
+  <g transform="translate(270, 415)">
+    <rect width="190" height="190" rx="14" fill="url(#cardBg)" stroke="url(#blueBorder)" stroke-width="1.2"/>
+    <text x="20" y="30" class="text-sub" fill="#ff354f" font-size="12" letter-spacing="1.5">DATABASES</text>
+
+    <g transform="translate(20, 48)">
+      <rect width="150" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#336791"/>
+      <text x="28" y="18" class="pill-text">PostgreSQL</text>
+    </g>
+    <g transform="translate(20, 88)">
+      <rect width="150" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#13aa52"/>
+      <text x="28" y="18" class="pill-text">MongoDB</text>
+    </g>
+    <g transform="translate(20, 128)">
+      <rect width="70" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#00758f"/>
+      <text x="26" y="18" class="pill-text">MySQL</text>
+    </g>
+    <g transform="translate(98, 128)">
+      <rect width="72" height="28" rx="14" fill="#111c33" stroke="#ff354f" stroke-opacity="0.5"/>
+      <circle cx="14" cy="14" r="7" fill="#d82c20"/>
+      <text x="26" y="18" class="pill-text">Redis</text>
+    </g>
+  </g>
+
+  <!-- 3. CLOUD & TOOLS CARD -->
+  <g transform="translate(475, 415)">
+    <rect width="210" height="190" rx="14" fill="url(#cardBg)" stroke="url(#blueBorder)" stroke-width="1.2"/>
+    <text x="20" y="30" class="text-sub" fill="#247bff" font-size="12" letter-spacing="1.5">CLOUD &amp; TOOLS</text>
+
+    <g transform="translate(20, 48)">
+      <rect width="80" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#ff9900"/>
+      <text x="27" y="18" class="pill-text">AWS</text>
+    </g>
+    <g transform="translate(108, 48)">
+      <rect width="82" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#fcc624"/>
+      <text x="27" y="18" class="pill-text">Linux</text>
+    </g>
+    <g transform="translate(20, 88)">
+      <rect width="80" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#0db7ed"/>
+      <text x="27" y="18" class="pill-text">Docker</text>
+    </g>
+    <g transform="translate(108, 88)">
+      <rect width="82" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#f05032"/>
+      <text x="27" y="18" class="pill-text">Git</text>
+    </g>
+    <g transform="translate(20, 128)">
+      <rect width="80" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#ffffff"/>
+      <path d="M14,9 C11.2,9 9,11.2 9,14 C9,16.2 10.4,18.1 12.4,18.8 C12.6,18.8 12.7,18.7 12.7,18.5 L12.7,17.4 C11.3,17.7 11,16.7 11,16.7 C10.8,16.1 10.4,15.9 10.4,15.9 C9.9,15.6 10.4,15.6 10.4,15.6 C10.9,15.6 11.2,16.1 11.2,16.1 C11.7,16.9 12.4,16.7 12.7,16.5 C12.8,16.1 12.9,15.8 13.1,15.6 C11.9,15.5 10.7,15 10.7,13 C10.7,12.4 10.9,11.9 11.3,11.5 C11.2,11.3 11,10.7 11.4,10 C11.4,10 11.9,9.8 13,10.6 C13.5,10.5 14,10.4 14.5,10.4 C15,10.4 15.5,10.5 16,10.6 C17.1,9.8 17.6,10 17.6,10 C18,10.7 17.8,11.3 17.7,11.5 C18.1,11.9 18.3,12.4 18.3,13 C18.3,15 17.1,15.5 15.9,15.6 C16.1,15.8 16.3,16.2 16.3,16.8 L16.3,18.5 C16.3,18.7 16.4,18.8 16.6,18.8 C18.6,18.1 20,16.2 20,14 C20,11.2 17.8,9 14,9 Z" fill="#181717"/>
+      <text x="27" y="18" class="pill-text">GitHub</text>
+    </g>
+    <g transform="translate(108, 128)">
+      <rect width="82" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#3448c5"/>
+      <text x="24" y="18" class="pill-text">Cloudinary</text>
+    </g>
+  </g>
+
+  <!-- 4. LANGUAGES CARD (SEPARATE SECTION) -->
+  <g transform="translate(700, 415)">
+    <rect width="155" height="190" rx="14" fill="url(#cardBg)" stroke="url(#crimsonBorder)" stroke-width="1.2"/>
+    <text x="18" y="30" class="text-sub" fill="#ff354f" font-size="12" letter-spacing="1.5">LANGUAGES</text>
+
+    <g transform="translate(18, 48)">
+      <rect width="118" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#00599c"/>
+      <text x="14" y="17" font-family="sans-serif" font-weight="800" font-size="7" fill="#fff" text-anchor="middle">C++</text>
+      <text x="28" y="18" class="pill-text">C++</text>
+    </g>
+    <g transform="translate(18, 88)">
+      <rect width="118" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <rect x="7" y="7" width="14" height="14" rx="2" fill="#3178c6"/>
+      <text x="14" y="17" font-family="sans-serif" font-weight="800" font-size="7" fill="#fff" text-anchor="middle">TS</text>
+      <text x="28" y="18" class="pill-text">TypeScript</text>
+    </g>
+    <g transform="translate(18, 128)">
+      <rect width="118" height="28" rx="14" fill="#111c33" stroke="#247bff" stroke-opacity="0.4"/>
+      <circle cx="14" cy="14" r="7" fill="#3776ab"/>
+      <text x="28" y="18" class="pill-text">Python</text>
+    </g>
+  </g>
+
+</svg>
