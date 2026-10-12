@@ -1,38 +1,10 @@
 <div align="center">
-
-# Hi, I'm Uttam Maji 👋
-
-### Full Stack Developer · Cloud Enthusiast · B.Tech CSE Student
-
-[GitHub](https://github.com/uttammaji) · [LinkedIn](https://www.linkedin.com/in/uttam-maji-99070p0) · [Repositories](https://github.com/uttammaji?tab=repositories)
-
-</div>
-
-<div align="center">
   <img src="assets/hero.svg" alt="Animated profile header for Uttam Maji" width="100%">
 </div>
-
-## About me
-
-Hi, I'm **Uttam Maji**, a full stack developer and **cloud enthusiast** pursuing a B.Tech in Computer Science. I enjoy building practical applications, designing APIs, working with databases, and learning how to deploy and scale apps in the cloud.
-
-- 🌱 Exploring **React**, **Tailwind CSS**, **React Native**, and cloud technologies
-- 🛠️ Building with JavaScript, Node.js, Express, and SQL/NoSQL databases
-- ☁️ Interested in AWS, Linux, containers, and reliable application deployment
-- 🎓 B.Tech Computer Science student at Brainware University
-
-## Tech stack
 
 <div align="center">
   <img src="assets/stack.svg" alt="Technology stack: C++, JavaScript, Python, TypeScript, React, Tailwind CSS, React Native, Node.js, Express, REST APIs, AWS, Docker, Linux, PostgreSQL, MongoDB, MySQL, Git, and GitHub" width="100%">
 </div>
-
-**Languages:** C++, JavaScript, Python, TypeScript  
-**Frontend & mobile:** React, Tailwind CSS, React Native  
-**Backend:** Node.js, Express, REST APIs  
-**Cloud, data & tools:** AWS, Docker, Linux, PostgreSQL, MongoDB, MySQL, Git, GitHub
-
-## Profile visuals
 
 <div align="center">
   <img src="assets/id-dashboard.svg" alt="Developer ID dashboard for Uttam Maji" width="100%">
@@ -51,6 +23,3 @@ Hi, I'm **Uttam Maji**, a full stack developer and **cloud enthusiast** pursuing
 | **Gym** | A web application built with React, Express, and Node.js. | [View project](https://github.com/uttammaji/Gym) |
 | **Voice Assistance** | A voice assistant project built with JavaScript. | [View project](https://github.com/uttammaji/Voice-Assistance) |
 
-## Connect
-
-Find me on [GitHub](https://github.com/uttammaji), [LinkedIn](https://www.linkedin.com/in/uttam-maji-99070p0), or [browse all my repositories](https://github.com/uttammaji?tab=repositories).
